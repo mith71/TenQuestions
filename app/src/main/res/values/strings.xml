@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Four Questions</string>
+    <string name="question_1">Question 1 of 4</string>
+    <string name="question_2">Question 2 of 4</string>
+    <string name="question_3">Question 3 of 4</string>
+    <string name="question_4">Question 4 of 4</string>
+    <string name="monaco">Monaco</string>
+    <string name="luxembourg">Luxembourg</string>
+    <string name="andorra">Andorra</string>
+    <string name="san_marino">San Marino</string>
+    <string name="germany">Germany</string>
+    <string name="romania">Romania</string>
+    <string name="belgium">Belgium</string>
+    <string name="denmark">Denmark</string>
+    <string name="austria">Austria</string>
+    <string name="switzerland">Switzerland</string>
+    <string name="italy">Italy</string>
+    <string name="spain">spain</string>
+    <string name="what_flag">Which country\'s flag is this?</string>
+    <string name="what_borders_flag">Which countries border the country with this flag?</string>
+    <string name="type_flag">What is the name of the country with this flag?</string>
+    <string name="hint_country">Country</string>
+    <string name="submit_when_ready">Click Submit when ready</string>
+    <string name="submit">Submit Answers</string>
+    <string name="answers_all_correct">All answers are correct. Congratulations!</string>
+    <string name="answers_not_all_correct">Some answers are incorrect. Try again!</string>
+    <string name="answer_1_correct">Answer 1 is correct.</string>
+    <string name="answer_1_not_correct">Answer 1 is incorrect.</string>
+    <string name="answer_2_correct">Answer 2 is correct.</string>
+    <string name="answer_2_not_correct">Answer 2 is incorrect.</string>
+    <string name="answer_3_correct">Answer 3 is correct.</string>
+    <string name="answer_3_not_correct">Answer 3 is incorrect.</string>
+    <string name="answer_4_correct">Answer 4 is correct.</string>
+    <string name="answer_4_not_correct">Answer 4 is incorrect.</string>
+</resources>

@@ -1,0 +1,241 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingLeft="16dp"
+        android:paddingRight="16dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:text="@string/question_1"
+            android:textAllCaps="true" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:paddingBottom="16dp"
+            android:paddingTop="16dp"
+            android:text="@string/what_flag"
+            android:textSize="16sp" />
+
+        <ImageView
+            android:id="@+id/imageView_1"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:paddingBottom="16dp"
+            android:src="@drawable/andorra" />
+
+        <RadioGroup
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <RadioButton
+                android:id="@+id/radioButton_1_Monaco"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/monaco" />
+
+            <RadioButton
+                android:id="@+id/radioButton_1_Luxembourg"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/luxembourg" />
+
+            <RadioButton
+                android:id="@+id/radioButton_1_Andorra"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/andorra" />
+
+            <RadioButton
+                android:id="@+id/radioButton_1_San_Marino"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/san_marino" />
+        </RadioGroup>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginTop="16dp"
+            android:background="@android:color/darker_gray" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:text="@string/question_2"
+            android:textAllCaps="true" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:paddingBottom="16dp"
+            android:paddingTop="16dp"
+            android:text="@string/what_flag"
+            android:textSize="16sp" />
+
+        <ImageView
+            android:id="@+id/imageView_2"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:paddingBottom="16dp"
+            android:src="@drawable/belgium" />
+
+        <RadioGroup
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <RadioButton
+                android:id="@+id/radioButton_2_Germany"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/germany" />
+
+            <RadioButton
+                android:id="@+id/radioButton_2_Belgium"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/belgium" />
+
+            <RadioButton
+                android:id="@+id/radioButton_2_Romania"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/romania" />
+
+            <RadioButton
+                android:id="@+id/radioButton_2_Denmark"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/denmark" />
+        </RadioGroup>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginTop="16dp"
+            android:background="@android:color/darker_gray" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:text="@string/question_2"
+            android:textAllCaps="true" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:paddingBottom="16dp"
+            android:paddingTop="16dp"
+            android:text="@string/what_borders_flag"
+            android:textSize="16sp" />
+
+        <ImageView
+            android:id="@+id/imageView_3"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:paddingBottom="16dp"
+            android:src="@drawable/liechtenstein" />
+
+        <CheckBox
+            android:id="@+id/checkBox_3_Germany"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/germany" />
+
+        <CheckBox
+            android:id="@+id/checkBox_3_Austria"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/austria" />
+
+        <CheckBox
+            android:id="@+id/checkBox_3_Switzerland"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/switzerland" />
+
+        <CheckBox
+            android:id="@+id/checkBox_3_Italy"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/italy" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginTop="16dp"
+            android:background="@android:color/darker_gray" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:text="@string/question_4"
+            android:textAllCaps="true" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:paddingBottom="16dp"
+            android:paddingTop="16dp"
+            android:text="@string/type_flag"
+            android:textSize="16sp" />
+
+        <ImageView
+            android:id="@+id/imageView_4"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:paddingBottom="16dp"
+            android:src="@drawable/spain" />
+
+        <EditText
+            android:id="@+id/country_input"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="@string/hint_country"
+            android:inputType="textPersonName" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginTop="16dp"
+            android:background="@android:color/darker_gray" />
+
+        <TextView
+            android:id="@+id/result_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:text="@string/submit_when_ready"
+            android:textAllCaps="true" />
+
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:onClick="submitAnswers"
+            android:text="@string/submit" />
+
+    </LinearLayout>
+</ScrollView>
